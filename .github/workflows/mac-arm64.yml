@@ -2,7 +2,9 @@
 name: (Apple Silicon ARM64) Compilar y Empaquetar para macOS 
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build-and-package:
