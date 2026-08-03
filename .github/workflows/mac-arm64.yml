@@ -46,7 +46,7 @@ jobs:
           brew update
           brew install cmake ninja qt@6 libzip libpng pkg-config openssl@3 rustup-init
           brew link --force qt@6
-          rustup-init -y
+        # rustup-init -y
 
       - name: Compilar Trinity (ARM64)
         run: |
